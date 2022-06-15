@@ -1,0 +1,22 @@
+
+import {
+  validate,
+  flattenMessages,
+  required,
+  isNumber,
+  isString,
+  isBool,
+  validateArray,
+  validateObject,
+  maxLength,
+  minLength
+} from "https://deno.land/x/validasaur/mod.ts";
+
+export const authTestValidation = {
+
+  username: [required, isString,  maxLength(255), minLength(6)],
+  email: [required, isString,  maxLength(255), minLength(6)],
+  password: [required, isString,  maxLength(255), minLength(6)],
+  phone: [required, isString,  maxLength(255), minLength(6)],
+
+}

@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "inlineSourceMap": true,
+    "isolatedModules": true,
+    "jsx": "react",
+    "lib": [
+      "deno.window",
+      "es2017",
+      "esnext"
+    ],
+    "module": "esnext",
+    "strict": true,
+    "target": "esnext",
+    "useDefineForClassFields": true,
+    "baseUrl": "src",
+
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.json",
+    ".env",
+    "../../../Users/Tech1/AppData/Roaming/JetBrains/PhpStorm2021.2/plugins/deno/deno-service/node_modules/typescript-deno-plugin/lib/lib.deno.d.ts"
+  ]
+}
